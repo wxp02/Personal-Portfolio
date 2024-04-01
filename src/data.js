@@ -63,3 +63,30 @@ export const skills = {
     "dbt",
   ],
 };
+
+export const experiences = [
+  {
+    title: "Data Engineer @ Super.com",
+    type: "Co-op",
+    period: "September 2023 – December 2023",
+    description: "Worked on the analytics engineering side",
+    technologies: "Tools: Python, SQL, Snowflake, Airflow, dbt, Looker",
+    logoPath: "./companies/super.png",
+  },
+  {
+    title: "Data Science / Software Engineer @ CIBC",
+    type: "Co-op",
+    period: "May 2022 – December 2022",
+    description: "Built financial models and tools to optimize workflow",
+    technologies: "Tools: React, Flask, Pandas, NumPy, Matplotlib, Postman",
+    logoPath: "./companies/cibc.png",
+  },
+  {
+    title: "Software Engineer @ Waterloo Rocketry",
+    type: "Volunteer",
+    period: "May 2022 – August 2022",
+    description: "Created internal tools",
+    technologies: "Tools: TypeScript, Node, Python",
+    logoPath: "./companies/Rocketry.png",
+  },
+];
