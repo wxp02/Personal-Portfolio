@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./components/About";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -14,7 +14,7 @@ export default function App() {
       <Experience />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 }

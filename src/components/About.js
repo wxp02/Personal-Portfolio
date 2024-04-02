@@ -16,7 +16,7 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://drive.google.com/file/d/18hTrc8iYFj0MHCXnbcZ3RuZ5zzC3Ip2s/view?usp=sharing"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               My Resume
