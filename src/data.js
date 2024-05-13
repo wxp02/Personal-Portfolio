@@ -47,11 +47,19 @@ export const experiences = [
     logoPath: "./companies/cibc.png",
   },
   {
+    title: "Undergraduate Research Assistant @ UWaterloo",
+    type: "Part-time",
+    period: "May 2024 – August 2024",
+    description: "Revamping Perses, supervised by Prof. Chengnian Sun",
+    technologies: "Tools: Kotlin, Java, Bazel",
+    logoPath: "./companies/uwaterloo.png",
+  },
+  {
     title: "Software Engineer @ Waterloo Rocketry",
     type: "Volunteer",
     period: "Oct 2023 – April 2024",
     description: "Created internal tools",
     technologies: "Tools: TypeScript, Node, Python",
-    logoPath: "./companies/Rocketry.png",
+    logoPath: "./companies/rocketry.png",
   },
 ];

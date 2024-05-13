@@ -12,18 +12,18 @@ export default function Experience() {
             Experience
           </h1>
           <p className="lg:w-2/3 leading-relaxed text-base text-center">
-            I have completed 3 co-ops in Canada.
+            I have completed 4 co-ops so far.
           </p>
         </div>
         <div className="flex flex-col items-center w-full">
           {experiences.map((exp, index) => (
             // Adjust width of experience box
-            <div key={index} className="lg:w-3/5 w-full flex mb-10">
+            <div key={index} className="lg:w-2/3 w-full flex mb-10">
               <div className="flex flex-row items-start w-full bg-gray-800 text-white rounded-lg p-4 shadow-md">
                 <img
                   src={exp.logoPath}
                   alt="company logo"
-                  className="h-12 object-cover object-center mr-8"
+                  className="h-12 w-12 object-contain mr-8"
                 />
                 <div className="flex-grow">
                   <h2 className="text-lg title-font font-medium mb-1">
